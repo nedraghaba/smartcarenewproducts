@@ -1,0 +1,3162 @@
+.background{
+    min-height: 100%;
+    min-width: 600px;
+    /* On indique un redimensionnement proportionnel */
+    width: 100%;
+    height: 50%;
+    /* L'image est positionnée en haut à gauche */
+    position: fixed;
+    top: 0;
+    left: 0;
+     min-width: 600px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     background-attachment: fixed;
+}
+.my-nav{
+    position: absolute;
+    z-index: 11;
+    width: 100%;
+    }
+    .navbar{
+        padding-top: 0!important;
+        margin-bottom: 10px!important;
+    }
+.navbar1{
+    margin-bottom: 50px!important;
+
+}
+.dropdown-menu {
+    position: absolute!important;
+    width: 200px!important;
+
+}
+.scrollable-menu {
+  height: auto;
+  max-height: 450px;
+  
+  overflow-x: hidden;
+}
+                                                 /*changes: font family, float, left&right*/
+    @font-face{ font-family:AvenirLTStd-Roman;
+        src:url('Avenir-Font/avenir_ff/AvenirLTStd-Roman.otf');}
+    .nav-item{
+        
+        list-style: none;
+        padding-left: 0px;
+        font-size:20px;
+        font-family:AvenirLTStd-Roman ;
+        text-decoration: none;
+        
+        display: inline-block;
+        margin-top: 0;
+        margin-right: 100px;
+        padding-right: 5px;
+        
+
+        padding-top: 15px;
+        
+      }
+     
+      .nav-link{
+        color:#626264!important ;      }
+      .nav-link:hover{
+        background-color: #3ebe91;
+        color: white!important;
+        font-weight: bold;
+        border-radius: 6px;
+        
+    }
+    @font-face{ font-family:AvenirLTStd-Book;
+        src:url('Avenir-Font/avenir_ff/AvenirLTStd-Book.otf');}
+   
+        #p2p1{
+            margin-top: 70%;
+            position: relative;
+            margin-left: 5%;
+            text-align:justify;
+            text-justify: inter-word;
+            color: #555555;
+            font-size: 16px;
+            max-width:100% ;
+            font-family: AvenirLTStd-Book;
+        }
+        #p2p1 p{
+            margin-bottom: 0px;
+            position: relative;
+            left: 0%;
+            height: auto;
+            max-width:100%;
+            
+            } 
+    @font-face{ font-family:AvenirLTStd-Book;
+        src:url('Avenir-Font/avenir_ff/AvenirLTStd-Book.otf');}
+    #p22p1{
+        margin-top: 70%;
+        position: relative;
+        margin-left: 5%;
+        text-align:justify;
+        text-justify: inter-word;
+        color: #555555;
+        font-size: 16px;
+        max-width:100% ;
+        font-family: AvenirLTStd-Book;
+    }
+    #p22p1 p{
+        margin-bottom: 0px;
+        position: relative;
+        left: 5%;
+        height: auto;
+        max-width:100%;
+        width: 75%;
+        }
+        @font-face{ font-family:AvenirLTStd-Book;
+            src:url('Avenir-Font/avenir_ff/AvenirLTStd-Book.otf');}
+             .p33h1{
+                 z-index: 13;
+            margin-right: 25%;
+            margin-left: 5%;
+            font-family: AvenirLTStd-Book;
+            color: #5091c3;
+            font-size: 80px;
+            margin-bottom: 20px;
+            padding-bottom: 13px;
+            width: 959px;
+            max-width: 100%;
+        }
+        @font-face{ font-family:AvenirLTStd-Book;
+            src:url('Avenir-Font/avenir_ff/AvenirLTStd-Book.otf');}
+        .p5h1{
+            position: relative;
+            right:1% ;
+            margin-left: 7%!important;
+            margin-right: 0;
+            font-family: AvenirLTStd-Book;
+            color: #5091c3;
+            font-size: 80px;
+            margin-bottom: 20px;
+            padding-bottom: 13px;
+            max-width: 100%;
+        }
+
+        .p5h8{
+          position: relative;
+          
+          
+          text-align: center;
+          margin-left: 5%;
+          margin-right: 5%;
+          font-family: AvenirLTStd-Book;
+          color: #5091c3;
+          font-size: 70px;
+          margin-bottom: 20px;
+          padding-bottom: 13px;
+          padding-top: 70px;
+          max-width: 100%;
+      }
+      .p5h9{
+          position: relative;
+          
+          
+          text-align: center;
+          margin-left: 5%;
+          margin-right: 5%;
+          font-family: AvenirLTStd-Book;
+          color: #5091c3;
+          font-size: 60px;
+          margin-bottom: 20px;
+          padding-bottom: 13px;
+          max-width: 100%;
+      }
+      .prodNEW{
+        display: block;
+margin-left: 37%;
+margin-right: auto;
+        width: 350px;
+        height: 250px;
+        
+        
+    }
+        .underline-3{
+            border-bottom: 4px solid currentColor;
+            
+            line-height: 1,7;
+        } 
+        #blogCarousel{
+            position: relative;
+            right: 1%;
+        }
+        .jcarousel img {
+            display: block;
+            max-width: 100%;
+            height: auto !important;
+        }
+        .blog .carousel-indicators {
+            left: 0;
+            top: auto;
+            bottom: -40px;
+        
+        }
+        
+        /* The colour of the indicators */
+        .blog .carousel-indicators li {
+            background: #a3a3a3;
+            border-radius: 50%;
+            width: 8px;
+            height: 8px;
+            display:none;
+        }
+        
+        .blog .carousel-indicators .active {
+        background: #707070;
+        }
+        .col-md-12{
+            margin-top: 20px;
+            height: 150px!important;
+        }
+        .col-md-3{
+            height: 50%;
+        }
+        .row {
+            max-width: 100%;
+           max-height:  200px!important;
+        }
+        center{
+            color: rgb(68, 67, 67);
+            text-decoration: none;
+        }
+        .dropdown-toggle{
+            color:#626264!important ;
+            
+        }
+        .dropdown-menu{
+            background-color: white!important;
+        }
+        .dropdown-show{
+            background-color: white!important;
+        }
+        .dropdown-toggle:hover{
+            color: white!important;
+            text-decoration: none;
+        }
+        @font-face{ font-family:AvenirLTStd-Book;
+            src:url('Avenir-Font/avenir_ff/AvenirLTStd-Book.otf');}
+        .ps{
+            font-family: AvenirLTStd-Book;
+            padding-left: 15px;
+            padding-right: 30px;
+            font-size: 12px;
+            float: left;
+            color: #343534;
+            
+        }
+        .ps1{
+          font-family: AvenirLTStd-Book;
+          padding-left: 15px;
+          padding-right: 38px;
+          font-size: 12px;
+          float: left;
+          color: #343534; 
+      }
+        .ps.active{
+         color: #3ebe91!important;
+        }
+        
+        #ps{
+            text-decoration: none; 
+            font-size: 20px;
+        }
+        #ps1{
+          text-decoration: none; 
+          font-size: 15px;
+      }
+
+        .prod{
+            width: 300px;
+            height: 200px;
+            float:left;
+            margin-bottom: 50px;
+            margin-right: 15px;
+            margin-left: 5%;
+        }
+        .proda{
+            position: relative;
+            left: 19%;
+            margin-left: 0%;
+          height: auto;  
+          max-width: 100%;
+          text-align: justify;
+        }
+        @font-face{ font-family:AvenirLTStd-Book;
+            src:url('Avenir-Font/avenir_ff/AvenirLTStd-Book.otf');}
+        .p4h1{
+            margin-right: 19%;
+            font-family: AvenirLTStd-Book;
+            color: #3ebe91;
+            font-size: 50px;
+            margin-bottom: 20px;
+            padding-bottom: 13px;
+        }
+        
+                               /*responsive*/
+                               @media only screen and (max-width: 320px) {
+                                .p4h1 {
+                                    font-size: 25px;
+                                    text-align: left;
+                                    margin-left: 12%;
+                                    margin-bottom: 0%;
+                                    margin-right: 0%;
+                                }
+                                .navbar1{
+                                    margin-bottom: 30px!important;
+                                }
+                                  .p33h1 {
+                                    margin-left: 5%!important;
+                                    margin-right: 10%!important;
+                                     width: auto!important;
+                                      text-align: center;
+                                      font-size: 60px;
+                                      margin-bottom: 20px;
+                                      padding-bottom: 13px;
+                                  }
+                                  .nav-link{
+                                    width: 150px!important;
+                                }
+                                  #p22p1 p {
+                                    position: relative;
+                                    left: 0%;
+                                    margin-right: 10%;
+                                    margin-left: 4%;
+                                    width: auto;
+                                }
+                               
+                                  .dropdown-show{
+                                      background-color: white!important;
+                                  }
+                                  .carousel-item{
+                                      height: 800px!important;
+                                      margin-left: 8%;
+                                  }
+                                  
+                                  .item1{
+                                      margin-left: 20px;
+                                      height: 160px!important;
+                                  }
+                                  
+                                  
+                                  .p5h1{
+                                     
+                                      font-size: 30px!important;
+                                      margin-left: 4%!important;
+                                      text-align: center;
+                                      width: 290px!important;
+                                  }
+                                  .p5h8{
+                                    font-size: 30px;
+                                
+                                    text-align: center;  
+                                }
+                                .p5h9{
+                                    font-size: 25px;
+                                margin-left: 4%;
+                                margin-right: 4%;
+                                    text-align: center;   
+                                }
+                                
+                                .prodNEW{
+                                    width: 280px;
+                                    height: 200px;
+                                    margin-left: 6%; 
+                                }
+                                  .prod{
+                                      margin-right: 5%!important;
+                                      margin-bottom: 10%;
+                                      margin-left: 2%!important;
+                                      
+                                  }
+                                  .proda{
+                                      
+                                    margin-right: 5%;
+                                    margin-left: 2%;
+                                    margin-bottom: 5%!important;
+                                    font-size: 10px;
+                                  }
+                                  .col-md-3{
+                                    padding-right: 0px!important;
+                                }
+                                
+                      
+                      
+                              }
+                              @media  (max-width: 337px)and (min-width: 321px) {
+                                .p4h1 {
+                                    font-size: 28px;
+                                    text-align: left;
+                                    margin-left: 8%;
+                                    margin-bottom: 0%;
+                                    margin-right: 0%;
+                                }
+                                  .nav-link{
+                                    width: 150px!important;
+                                }
+                                .navbar1{
+                                    margin-bottom: 30px!important;
+                                }
+                                  .p33h1 {
+                                    margin-left: 4%!important;
+                                    margin-right: 10%!important;
+                                     width: auto!important;
+                                      text-align: center;
+                                      font-size: 60px;
+                                      margin-bottom: 20px;
+                                      padding-bottom: 13px;
+                                  }
+                                  #p22p1 p {
+                                    position: relative;
+                                    left: 0%;
+                                    margin-right: 10%;
+                                    margin-left: 4%;
+                                    width: auto;
+                                }
+                                  
+                                      .carousel-item{
+                                          height: 800px!important;
+                                          margin-left: 12%;
+                                      }
+                                      .item1{
+                                          margin-left: 20px;
+                                          height: 160px!important;
+                                      }
+                                      
+                                   
+                                    
+                                    .p5h1{
+                                       
+                                        font-size: 30px!important;
+                                        
+                                        text-align: center;
+                                        width: 290px!important;
+                                    }
+                                    .p5h8{
+                                      font-size: 30px;
+                                  
+                                      text-align: center;  
+                                  }
+                                  .p5h9{
+                                      font-size: 25px;
+                                  margin-left: 4%;
+                                  margin-right: 4%;
+                                      text-align: center;   
+                                  }
+                                  
+                                  .prodNEW{
+                                      width: 280px;
+                                      height: 200px;
+                                      margin-left: 6%; 
+                                  }
+                                    .prod{
+                                        margin-right: 15%;
+                                        margin-bottom: 10%;
+ 
+                                    }
+                                    .proda{
+                                        margin-right: 2%;
+                                        margin-left: 2%;
+                                      margin-bottom: 5%!important;
+                                      font-size: 10px;
+                                    }
+                              }
+                              @media  (max-width: 347px)and (min-width: 338px) {
+                                .p4h1 {
+                                    font-size: 28px;
+                                    text-align: left;
+                                    margin-left: 8%;
+                                    margin-bottom: 0%;
+                                    margin-right: 0%;
+                                }
+                                  .nav-link{
+                                    width: 150px!important;
+                                }
+                                .navbar1{
+                                    margin-bottom: 30px!important;
+                                }
+                                  .p33h1 {
+                                    margin-left: 4%!important;
+                                    margin-right: 10%!important;
+                                     width: auto!important;
+                                      text-align: center;
+                                      font-size: 60px;
+                                      margin-bottom: 20px;
+                                      padding-bottom: 13px;
+                                  }
+                                  #p22p1 p {
+                                    position: relative;
+                                    left: 0%;
+                                    margin-right: 10%;
+                                    margin-left: 4%;
+                                    width: auto;
+                                }
+                                 
+                                      .carousel-item{
+                                          height: 800px!important;
+                                          margin-left: 12%;
+                                      }
+                                      .item1{
+                                          margin-left: 20px;
+                                          height: 168px!important;
+                                      }
+                                      
+                                
+                                   
+                                    
+                                    .p5h1{
+                                       
+                                        font-size: 30px!important;
+                                        
+                                        text-align: center;
+                                        width: 300px!important;
+                                    }
+                                    .p5h8{
+                                      font-size: 30px;
+                                  
+                                      text-align: center;  
+                                  }
+                                  .p5h9{
+                                      font-size: 25px;
+                                  margin-left: 4%;
+                                  margin-right: 4%;
+                                      text-align: center;   
+                                  }
+                                  
+                                  .prodNEW{
+                                      width: 280px;
+                                      height: 200px;
+                                      margin-left: 6%; 
+                                  }
+
+                                    .prod{
+                                        margin-right: 10%;
+                                        margin-bottom: 10%;
+                                        position: relative;
+                                        left: 1%;
+                                        
+                                    }
+                                    .proda{
+                                        margin-right: 2%;
+                                        margin-left: 2%;   
+                                      
+                                     
+                                      margin-bottom: 5%!important;
+                                      font-size: 10px;
+                                    }
+                              }
+                              @media  (max-width: 360px)and (min-width: 348px) {
+                                .p4h1 {
+                                    font-size: 28px;
+                                    text-align: left;
+                                    margin-left: 8%;
+                                    margin-bottom: 0%;
+                                    margin-right: 0%;
+                                }
+                                  .nav-link{
+                                    width: 150px!important;
+                                }
+                                .navbar1{
+                                    margin-bottom: 30px!important;
+                                }
+                                  .p33h1 {
+                                    margin-left: 4%!important;
+                                    margin-right: 10%!important;
+                                     width: auto!important;
+                                      text-align: center;
+                                      font-size: 60px;
+                                      margin-bottom: 20px;
+                                      padding-bottom: 13px;
+                                  }
+                                  #p22p1 p {
+                                    position: relative;
+                                    left: 0%;
+                                    margin-right: 10%;
+                                    margin-left: 4%;
+                                    width: auto;
+                                    font-size: 18px;
+                                }
+                                  
+                                      .carousel-item{
+                                          height: 850px!important;
+                                          margin-left: 12%;
+                                      }
+                                      .item1{
+                                          margin-left: 20px;
+                                          height: 176px!important;
+                                      }
+                                     
+                                   
+                                    
+                                    .p5h1{
+                                       
+                                        font-size: 40px!important;
+                                        
+                                        text-align: center;
+                                        width: 320px!important;
+                                    }
+                                    .p5h8{
+                                      font-size: 30px;
+                                  
+                                      text-align: center;  
+                                  }
+                                  .p5h9{
+                                      font-size: 25px;
+                                  margin-left: 4%;
+                                  margin-right: 4%;
+                                      text-align: center;   
+                                  }
+                                  
+                                  .prodNEW{
+                                      width: 280px;
+                                      height: 200px;
+                                      margin-left: 10%; 
+                                  }
+                                    .prod{
+                                        margin-right: 15%;
+                                        margin-bottom: 10%;
+                                        position: relative;
+                                        left: 5%;
+                                        
+                                    }
+                                    .proda{
+                                        margin-right: 2%;
+                                        margin-left: 2%;
+                                      margin-bottom: 5%!important;
+                                      font-size: 15px;
+                                    }
+                                  
+                              }
+                              @media  (max-width: 374px)and (min-width: 361px) {
+                                .p4h1 {
+                                    font-size: 28px;
+                                    text-align: left;
+                                    margin-left: 8%;
+                                    margin-bottom: 0%;
+                                    margin-right: 0%;
+                                }
+                                  .nav-link{
+                                    width: 150px!important;
+                                }
+                                .navbar1{
+                                    margin-bottom: 30px!important;
+                                }
+                                  .p33h1 {
+                                    margin-left: 4%!important;
+                                    margin-right: 10%!important;
+                                     width: auto!important;
+                                      text-align: center;
+                                      font-size: 60px;
+                                      margin-bottom: 20px;
+                                      padding-bottom: 13px;
+                                  }
+                                  #p22p1 p {
+                                    position: relative;
+                                    left: 0%;
+                                    margin-right: 10%;
+                                    margin-left: 4%;
+                                    width: auto;
+                                    font-size: 18px;
+                                }
+                                  
+                                      .carousel-item{
+                                          height: 850px!important;
+                                          margin-left: 12%;
+                                      }
+                                      .item1{
+                                          margin-left: 20px;
+                                          height: 184px!important;
+                                      }
+                                      
+                                   
+                                    
+                                    .p5h1{
+                                       
+                                        font-size: 40px!important;
+                                        
+                                        text-align: center;
+                                        width: 320px!important;
+                                    }
+                                    .p5h8{
+                                      font-size: 30px;
+                                  
+                                      text-align: center;  
+                                  }
+                                  .p5h9{
+                                      font-size: 25px;
+                                  margin-left: 4%;
+                                  margin-right: 4%;
+                                      text-align: center;   
+                                  }
+                                  
+                                  .prodNEW{
+                                      width: 280px;
+                                      height: 200px;
+                                      margin-left: 10%; 
+                                  }
+                                    .prod{
+                                        position: relative;
+                                        left: 5%;
+                                        margin-right: 15%;
+                                        margin-bottom: 10%;
+                                        
+                                        
+                                    }
+                                    .proda{
+                                        margin-right: 2%;
+                                        margin-left: 2%;   
+                                    
+                                      margin-bottom: 5%!important;
+                                      font-size: 15px;
+                                    }
+                                  
+                              }
+                      
+                              @media  (max-width: 385px)and (min-width: 375px) {
+                                .p4h1 {
+                                    font-size: 28px;
+                                    text-align: left;
+                                    margin-left: 12%;
+                                    margin-bottom: 0%;
+                                    margin-right: 0%;
+                                }
+                                  .nav-link{
+                                    width: 150px!important;
+                                }
+                                .navbar1{
+                                    margin-bottom: 30px!important;
+                                }
+                                  .p33h1 {
+                                    margin-left: 4%!important;
+                                    margin-right: 10%!important;
+                                     width: auto!important;
+                                      text-align: center;
+                                      font-size: 60px;
+                                      margin-bottom: 20px;
+                                      padding-bottom: 13px;
+                                  }
+                                  #p22p1 p {
+                                    position: relative;
+                                    left: 0%;
+                                    margin-right: 10%;
+                                    margin-left: 4%;
+                                    width: auto;
+                                    font-size: 18px;
+                                }
+                                  
+                                      .carousel-item{
+                                          height: 950px!important;
+                                          margin-left: 12%;
+                                      }
+                                      .item1{
+                                          margin-left: 20px;
+                                          height: 184px!important;
+                                      }
+                                     
+                                   
+                                    
+                                    .p5h1{
+                                       
+                                        font-size: 40px!important;
+                                        
+                                        text-align: center;
+                                        width: 340px!important;
+                                    }
+                                    .p5h8{
+                                      font-size: 30px;
+                                  
+                                      text-align: center;  
+                                  }
+                                  .p5h9{
+                                      font-size: 25px;
+                                  margin-left: 4%;
+                                  margin-right: 4%;
+                                      text-align: center;   
+                                  }
+                                  
+                                  .prodNEW{
+                                      width: 280px;
+                                      height: 200px;
+                                      margin-left: 14%; 
+                                  }
+                                    .prod{
+                                        position: relative;
+                                        left: 5%;
+                                        margin-right: 15%;
+                                        margin-bottom: 10%;
+                                        
+                                        
+                                    }
+                                    .proda{
+                                        margin-right: 2%;
+                                        margin-left: 2%;
+                                      margin-bottom: 5%!important;
+                                      font-size: 15px;
+                                    }
+                                  
+                              }
+                              @media  (max-width: 411px)and (min-width: 386px) {
+                                .p4h1 {
+                                    font-size: 28px;
+                                    text-align: left;
+                                    margin-left: 13%;
+                                    margin-bottom: 0%;
+                                    margin-right: 0%;
+                                }
+                                  .nav-link{
+                                    width: 150px!important;
+                                }
+                                .navbar1{
+                                    margin-bottom: 30px!important;
+                                }
+                                  .p33h1 {
+                                    margin-left: 4%!important;
+                                    margin-right: 10%!important;
+                                     width: auto!important;
+                                      text-align: center;
+                                      font-size: 60px;
+                                      margin-bottom: 20px;
+                                      padding-bottom: 13px;
+                                  }
+                                  #p22p1 p {
+                                    position: relative;
+                                    left: 0%;
+                                    margin-right: 10%;
+                                    margin-left: 4%;
+                                    width: auto;
+                                    font-size: 20px;
+                                }
+                                  
+                                      .carousel-item{
+                                          height: 1000px!important;
+                                          margin-left: 12%;
+                                      }
+                                      .item1{
+                                          margin-left: 20px;
+                                          height: 209px!important;
+                                      }
+                                     
+                                   
+                                    
+                                    .p5h1{
+                                       
+                                        font-size: 40px!important;
+                                        
+                                        text-align: center;
+                                        width: 340px!important;
+                                    }
+                                    .p5h8{
+                                      font-size: 30px;
+                                  
+                                      text-align: center;  
+                                  }
+                                  .p5h9{
+                                      font-size: 25px;
+                                  margin-left: 4%;
+                                  margin-right: 4%;
+                                      text-align: center;   
+                                  }
+                                  
+                                  .prodNEW{
+                                      width: 280px;
+                                      height: 200px;
+                                      margin-left: 14%; 
+                                  }
+                                    .prod{
+                                        position: relative;
+                                        left: 5%;
+                                        margin-right: 17%;
+                                        margin-bottom: 10%;
+                                        
+                                        
+                                    }
+                                    .proda{
+                                        margin-right: 2%;
+                                        margin-left: 2%;  
+                                     
+                                     
+                                      margin-bottom: 5%!important;
+                                      font-size: 15px;
+                                    }
+                              }
+                              @media (max-width: 414px) and (min-width: 412px) {
+                                .p4h1 {
+                                    font-size: 28px;
+                                    text-align: left;
+                                    margin-left: 14%;
+                                    margin-bottom: 0%;
+                                    margin-right: 0%;
+                                }
+                                  .nav-link{
+                                    width: 150px!important;
+                                }
+                                .navbar1{
+                                    margin-bottom: 30px!important;
+                                }
+                                  .p33h1 {
+                                    margin-left: 4%!important;
+                                    margin-right: 10%!important;
+                                     width: auto!important;
+                                      text-align: center;
+                                      font-size: 60px;
+                                      margin-bottom: 20px;
+                                      padding-bottom: 13px;
+                                  }
+                                  #p22p1 p {
+                                    position: relative;
+                                    left: 0%;
+                                    margin-right: 10%;
+                                    margin-left: 4%;
+                                    width: auto;
+                                    font-size: 20px;
+                                }
+                                  
+                                      .carousel-item{
+                                          height: 1000px!important;
+                                          margin-left: 12%;
+                                      }
+                                      .item1{
+                                          margin-left: 20px;
+                                          height: 211px!important;
+                                      }
+                                    
+                                   
+                                    
+                                    .p5h1{
+                                       
+                                        font-size: 40px!important;
+                                        
+                                        text-align: center;
+                                        width: 340px!important;
+                                    }
+                                    .p5h8{
+                                      font-size: 30px;
+                                  
+                                      text-align: center;  
+                                  }
+                                  .p5h9{
+                                      font-size: 25px;
+                                  margin-left: 4%;
+                                  margin-right: 4%;
+                                      text-align: center;   
+                                  }
+                                  
+                                  .prodNEW{
+                                      width: 280px;
+                                      height: 200px;
+                                      margin-left: 14%; 
+                                  }
+                                    .prod{
+                                        position: relative;
+                                        left: 5%;
+                                        margin-right: 17%;
+                                        margin-bottom: 10%;
+                                        
+                                        
+                                    }
+                                    .proda{
+                                        margin-right: 2%;
+                                        margin-left: 2%;
+                                         margin-bottom: 5%!important;
+                                      font-size: 15px;
+                                    }
+                                  
+                              }
+                              @media (max-width:420px) and (min-width: 415px) {
+                                .p4h1 {
+                                    font-size: 28px;
+                                    text-align: left;
+                                    margin-left: 14%;
+                                    margin-bottom: 0%;
+                                    margin-right: 0%;
+                                }
+                                  .nav-link{
+                                    width: 150px!important;
+                                }
+                                .navbar1{
+                                    margin-bottom: 30px!important;
+                                }
+                                  .p33h1 {
+                                    margin-left: 4%!important;
+                                    margin-right: 10%!important;
+                                     width: auto!important;
+                                      text-align: center;
+                                      font-size: 65px;
+                                      margin-bottom: 20px;
+                                      padding-bottom: 13px;
+                                  }
+                                  #p22p1 p {
+                                    position: relative;
+                                    left: 0%;
+                                    margin-right: 10%;
+                                    margin-left: 4%;
+                                    width: auto;
+                                    font-size: 20px;
+                                }
+                                      .carousel-item{
+                                          height: 1000px!important;
+                                          margin-left: 12%;
+                                      }
+                                      .item1{
+                                          margin-left: 20px;
+                                          height: 215px!important;
+                                      }
+                                     
+                                    
+                                    .p5h1{
+                                       
+                                        font-size: 40px!important;
+                                        
+                                        text-align: center;
+                                        width: 380px!important;
+                                    }
+                                    .p5h8{
+                                      font-size: 30px;
+                                  
+                                      text-align: center;  
+                                  }
+                                  .p5h9{
+                                      font-size: 25px;
+                                  margin-left: 4%;
+                                  margin-right: 4%;
+                                      text-align: center;   
+                                  }
+                                  
+                                  .prodNEW{
+                                      width: 280px;
+                                      height: 200px;
+                                      margin-left: 14%; 
+                                  }
+                                    .prod{
+                                        position: relative;
+                                        left: 10%;
+                                        margin-right: 19%;
+                                        margin-bottom: 10%;
+                                        
+                                        
+                                    }
+                                    .proda{
+                                        margin-right: 2%;
+                                        margin-left: 2%;
+                                      margin-bottom: 5%!important;
+                                      font-size: 15px;
+                                    } }
+                              @media (max-width: 441px) and (min-width: 421px) {
+                                .p4h1 {
+                                    font-size: 28px;
+                                    text-align: left;
+                                    margin-left: 13%;
+                                    margin-bottom: 0%;
+                                }
+                                  .nav-link{
+                                    width: 150px!important;
+                                }
+                                .navbar1{
+                                    margin-bottom: 30px!important;
+                                }
+                                  .p33h1 {
+                                    margin-left: 4%!important;
+                                    margin-right: 10%!important;
+                                     width: auto!important;
+                                      text-align: center;
+                                      font-size: 65px;
+                                      margin-bottom: 20px;
+                                      padding-bottom: 13px;
+                                  }
+                                  #p22p1 p {
+                                    position: relative;
+                                    left: 0%;
+                                    margin-right: 10%;
+                                    margin-left: 4%;
+                                    width: auto;
+                                    font-size: 16px;
+                                }
+                                  
+                                      .carousel-item{
+                                          height: 1070px!important;
+                                          margin-left: 12%;
+                                      }
+                                      .item1{
+                                          margin-left: 20px;
+                                          height: 229px!important;
+                                      }
+                                     
+                                   
+                                    
+                                    .p5h1{
+                                       
+                                        font-size: 40px!important;
+                                        
+                                        text-align: center;
+                                        width: 400px!important;
+                                    }
+                                    .p5h8{
+                                      font-size: 35px;
+                                  
+                                      text-align: center;  
+                                  }
+                                  .p5h9{
+                                      font-size: 30px;
+                                  margin-left: 4%;
+                                  margin-right: 4%;
+                                      text-align: center;   
+                                  }
+                                  
+                                  .prodNEW{
+                                      width: 280px;
+                                      height: 200px;
+                                      margin-left: 18%; 
+                                  }
+                                    .prod{
+                                        position: relative;
+                                        left: 13%;
+                                        margin-right: 25%;
+                                        margin-bottom: 10%;
+                                        
+                                        
+                                    }
+                                    .proda{
+                                        
+                                      margin-right: 2%;
+                                     margin-left: 2%;
+                                      margin-bottom: 5%!important;
+                                      font-size: 15px;
+                                    }
+                                  
+                              }
+                              @media (max-width:473px) and (min-width:442px) {
+                                .p4h1 {
+                                    font-size: 28px;
+                                    text-align: left;
+                                    margin-left: 14%;
+                                    margin-bottom: 0%;
+                                }
+                                  .nav-link{
+                                    width: 150px!important;
+                                }
+                                .navbar1{
+                                    margin-bottom: 30px!important;
+                                }
+                                  .p33h1 {
+                                    margin-left: 4%!important;
+                                    margin-right: 10%!important;
+                                     width: auto!important;
+                                      text-align: center;
+                                      font-size: 65px;
+                                      margin-bottom: 20px;
+                                      padding-bottom: 13px;
+                                  }
+                                  #p22p1 p {
+                                    position: relative;
+                                    left: 0%;
+                                    margin-right: 10%;
+                                    margin-left: 4%;
+                                    width: auto;
+                                    font-size: 19px;
+                                }
+                                 
+                                      .carousel-item{
+                                          height: 1160px!important;
+                                          margin-left: 12%;
+                                      }
+                                      .item1{
+                                          margin-left: 20px;
+                                          height: 240px!important;
+                                      }
+                                    
+                                    .p5h1{
+                                       
+                                        font-size: 40px!important;
+                                        
+                                        text-align: center;
+                                        width: 430px!important;
+                                    }
+                                    .p5h8{
+                                      font-size: 35px;
+                                  
+                                      text-align: center;  
+                                  }
+                                  .p5h9{
+                                      font-size: 30px;
+                                  margin-left: 4%;
+                                  margin-right: 4%;
+                                      text-align: center;   
+                                  }
+                                  
+                                  .prodNEW{
+                                      width: 280px;
+                                      height: 200px;
+                                      margin-left: 20%; 
+                                  }
+                                    .prod{
+                                        position: relative;
+                                        left: 16%;
+                                        margin-right: 27%;
+                                        margin-bottom: 10%;
+                                        
+                                        
+                                    }
+                                    .proda{
+                                        margin-right: 2%;
+                                        margin-left: 2%;
+                                      margin-bottom: 5%!important;
+                                      font-size: 15px;
+                                    }
+                                  
+                              }
+                              @media (max-width:500px) and (min-width:474px) {
+                                .p4h1 {
+                                    font-size: 28px;
+                                    text-align: left;
+                                    margin-left: 22%;
+                                    margin-bottom: 0%;
+                                }
+                                  .nav-link{
+                                    width: 150px!important;
+                                }
+                                .navbar1{
+                                    margin-bottom: 30px!important;
+                                }
+                                  .p33h1 {
+                                    margin-left: 4%!important;
+                                    margin-right: 10%!important;
+                                     width: auto!important;
+                                      text-align: center;
+                                      font-size: 65px;
+                                      margin-bottom: 20px;
+                                      padding-bottom: 13px;
+                                  }
+                                  #p22p1 p {
+                                    position: relative;
+                                    left: 0%;
+                                    margin-right: 10%;
+                                    margin-left: 4%;
+                                    width: auto;
+                                    font-size: 18px;
+                                }
+                                  
+                                      .carousel-item{
+                                          height: 1250px!important;
+                                          margin-left: 12%;
+                                      }
+                                      .item1{
+                                          margin-left: 20px;
+                                          height: 260px!important;
+                                      }
+                                    
+                                    
+                                    .p5h1{
+                                       
+                                        font-size: 40px!important;
+                                        
+                                        text-align: center;
+                                        width: 460px!important;
+                                    }
+                                    .p5h8{
+                                      font-size: 35px;
+                                  
+                                      text-align: center;  
+                                  }
+                                  .p5h9{
+                                      font-size: 30px;
+                                  margin-left: 4%;
+                                  margin-right: 4%;
+                                      text-align: center;   
+                                  }
+                                  
+                                  .prodNEW{
+                                      width: 280px;
+                                      height: 200px;
+                                      margin-left: 22%; 
+                                  }
+                                    .prod{
+                                        position: relative;
+                                        left: 18%;
+                                        margin-right: 30%;
+                                        margin-bottom: 10%;
+                                        
+                                        
+                                    }
+                                    .proda{
+                                        margin-right: 2%;
+                                        margin-left: 2%;
+                                      margin-bottom: 5%!important;
+                                      font-size: 15px;
+                                    }
+                                  
+                              }
+                              @media (max-width:531px) and (min-width:501px) {
+                                .p4h1 {
+                                    font-size: 29px;
+                                    text-align: left;
+                                    margin-left: 21%;
+                                    margin-bottom: 0%;
+                                }
+                                  .nav-link{
+                                    width: 150px!important;
+                                }
+                                  .p33h1 {
+                                    margin-left: 4%!important;
+                                    margin-right: 10%!important;
+                                     width: auto!important;
+                                      text-align: center;
+                                      font-size: 65px;
+                                      margin-bottom: 20px;
+                                      padding-bottom: 13px;
+                                  }
+                                  #p22p1 p {
+                                    position: relative;
+                                    left: 0%;
+                                    margin-right: 10%;
+                                    margin-left: 4%;
+                                    width: auto;
+                                    font-size: 18px;
+                                }
+                                      .carousel-item{
+                                          height: 1250px!important;
+                                          margin-left: 12%;
+                                      }
+                                      .item1{
+                                          margin-left: 20px;
+                                          height: 275px!important;
+                                      }
+                                    
+                                    .p5h1{
+                                       
+                                        font-size: 40px!important;
+                                        
+                                        text-align: center;
+                                        width: 480px!important;
+                                    }
+                                    .p5h8{
+                                      font-size: 35px;
+                                  
+                                      text-align: center;  
+                                  }
+                                  .p5h9{
+                                      font-size: 30px;
+                                  margin-left: 4%;
+                                  margin-right: 4%;
+                                      text-align: center;   
+                                  }
+                                  
+                                  .prodNEW{
+                                      width: 280px;
+                                      height: 200px;
+                                      margin-left: 24%; 
+                                  }
+                                    .prod{
+                                        position: relative;
+                                        left: 20%;
+                                        margin-right: 34%;
+                                        margin-bottom: 10%;
+                                        
+                                        
+                                    }
+                                    .proda{
+                                        margin-right: 2%;
+                                        margin-left: 2%;
+                                      margin-bottom: 5%!important;
+                                      font-size: 15px;
+                                    }
+                                  
+                              }
+                              @media (max-width:550px) and (min-width:532px) {
+                                .p4h1 {
+                                    font-size: 30px;
+                                    text-align: left;
+                                    margin-left: 19%;
+                                    margin-bottom: 0%;
+                                }
+                                  .nav-link{
+                                    width: 150px!important;
+                                }
+                                  .p33h1 {
+                                    margin-left: 4%!important;
+                                    margin-right: 10%!important;
+                                     width: auto!important;
+                                      text-align: center;
+                                      font-size: 65px;
+                                      margin-bottom: 20px;
+                                      padding-bottom: 13px;
+                                  }
+                                  #p22p1 p {
+                                    position: relative;
+                                    left: 0%;
+                                    margin-right: 10%;
+                                    margin-left: 4%;
+                                    width: auto;
+                                    font-size: 18px;
+                                }
+                                      .carousel-item{
+                                          height: 1350px!important;
+                                          margin-left: 12%;
+                                      }
+                                      .item1{
+                                          margin-left: 20px;
+                                          height: 300px!important;
+                                      }
+                                     
+                                    .p5h1{
+                                       
+                                        font-size: 40px!important;
+                                        
+                                        text-align: center;
+                                        width: 499px!important;
+                                    }
+                                    .p5h8{
+                                      font-size: 37px;
+                                  
+                                      text-align: center;  
+                                  }
+                                  .p5h9{
+                                      font-size: 35px;
+                                  margin-left: 4%;
+                                  margin-right: 4%;
+                                      text-align: center;   
+                                  }
+                                  
+                                  .prodNEW{
+                                      width: 280px;
+                                      height: 200px;
+                                      margin-left: 24%; 
+                                  }
+                                    .prod{
+                                        position: relative;
+                                        left: 20%;
+                                        margin-right: 33%;
+                                        margin-bottom: 10%;
+                                        
+                                        
+                                    }
+                                    .proda{
+                                        margin-right: 6%;
+                                        margin-left: 6%;
+                                      margin-bottom: 5%!important;
+                                      font-size: 15px;
+                                    }
+                              }
+                              
+                                  @media (max-width:600px) and (min-width:551px) {
+                                    .p4h1 {
+                                        font-size: 32px;
+                                        text-align: left;
+                                        margin-left: 19%;
+                                        margin-bottom: 0%;
+                                    }
+                                      .nav-link{
+                                        width: 150px!important;
+                                    }
+                                      .p33h1 {
+                                        margin-left: 4%!important;
+                                        margin-right: 10%!important;
+                                         width: auto!important;
+                                          text-align: center;
+                                          font-size: 65px;
+                                          margin-bottom: 20px;
+                                          padding-bottom: 13px;
+                                      }
+                                      #p22p1 p {
+                                        position: relative;
+                                        left: 0%;
+                                        margin-right: 10%;
+                                        margin-left: 4%;
+                                        width: auto;
+                                        font-size: 20px;
+                                    }
+                                          
+                                          .carousel-item{
+                                              height: 1500px!important;
+                                              margin-left: 12%;
+                                          }
+                                          .item1{
+                                              margin-left: 20px;
+                                              height: 330px!important;
+                                          }
+                                        
+                                        .p5h1{
+                                           
+                                            font-size: 40px!important;
+                                            
+                                            text-align: center;
+                                            width: 510px!important;
+                                        }
+                                        .p5h8{
+                                          font-size: 37px;
+                                      
+                                          text-align: center;  
+                                      }
+                                      .p5h9{
+                                          font-size: 35px;
+                                      margin-left: 4%;
+                                      margin-right: 4%;
+                                          text-align: center;   
+                                      }
+                                      
+                                      .prodNEW{
+                                          width: 280px;
+                                          height: 200px;
+                                          margin-left: 28%; 
+                                      }
+                                        .prod{
+                                            position: relative;
+                                            left: 20%;
+                                            margin-right: 42%;
+                                            margin-bottom: 10%;
+                                            
+                                            
+                                        }
+                                        .proda{
+                                            margin-right: 2%;
+                                            margin-left: 2%;
+                                          margin-bottom: 5%!important;
+                                          font-size: 15px;
+                                        } 
+                                  
+                              }
+                              @media (max-width:630px) and (min-width:601px) {
+                                .p4h1 {
+                                    font-size: 39px;
+                                    text-align: left;
+                                    margin-left: 15%;
+                                    margin-bottom: 0%;
+                                }
+                                  .nav-link{
+                                    width: 150px!important;
+                                }
+                                  .p33h1 {
+                                    margin-left: 4%!important;
+                                    margin-right: 10%!important;
+                                     width: auto!important;
+                                      text-align: center;
+                                      font-size: 65px;
+                                      margin-bottom: 20px;
+                                      padding-bottom: 13px;
+                                  }
+                                  #p22p1 p {
+                                    position: relative;
+                                    left: 0%;
+                                    margin-right: 10%;
+                                    margin-left: 4%;
+                                    width: auto;
+                                    font-size: 20px;
+                                }
+                                  
+                                .carousel-item{
+                                    height: 1300px!important;
+                                    margin-left: 12%;
+                                }
+                                      
+                                      .item1{
+                                          margin-left: 5px;
+                                          height: 73,5px!important;
+                                      }
+                                     
+                                    .p5h1{
+                                       
+                                        font-size: 40px!important;
+                                        
+                                        text-align: center;
+                                        width: 510px!important;
+                                    }
+                                    .p5h8{
+                                      font-size: 40px;
+                                  
+                                      text-align: center;  
+                                  }
+                                  .p5h9{
+                                      font-size: 35px;
+                                  margin-left: 4%;
+                                  margin-right: 4%;
+                                      text-align: center;   
+                                  }
+                                  
+                                  .prodNEW{
+                                      width: 280px;
+                                      height: 200px;
+                                      margin-left: 28%; 
+                                  }
+                                    .prod{
+                                        position: relative;
+                                        left: 20%;
+                                        margin-right: 45%;
+                                        margin-bottom: 10%;
+                                        
+                                        
+                                    }
+                                    .proda{
+                                        margin-right: 2%;
+                                        margin-left: 2%;
+                                      margin-bottom: 5%!important;
+                                      font-size: 15px;
+                                    } 
+                              
+                          }
+                          @media (max-width:660px) and (min-width:631px) {
+                            .p4h1 {
+                                font-size: 40px;
+                                text-align: left;
+                                margin-left: 15%;
+                                margin-bottom: 0%;
+                            }
+                              .nav-link{
+                                width: 150px!important;
+                            }
+                              .p33h1 {
+                                margin-left: 4%!important;
+                                margin-right: 10%!important;
+                                 width: auto!important;
+                                  text-align: center;
+                                  font-size: 65px;
+                                  margin-bottom: 20px;
+                                  padding-bottom: 13px;
+                              }
+                              #p22p1 p {
+                                position: relative;
+                                left: 0%;
+                                margin-right: 10%;
+                                margin-left: 4%;
+                                width: auto;
+                                font-size: 20px;
+                            }
+                              
+                            .carousel-item{
+                                height: 1300px!important;
+                                margin-left: 6%;
+                            }
+                              
+                                  .item1{
+                                      margin-left: 5px;
+                                      height: 78px!important;
+                                  }
+                                
+                                .p5h1{
+                                   
+                                    font-size: 40px!important;
+                                    
+                                    text-align: center;
+                                    width: 540px!important;
+                                }
+                                .p5h8{
+                                  font-size: 40px;
+                              
+                                  text-align: center;  
+                              }
+                              .p5h9{
+                                  font-size: 35px;
+                              margin-left: 4%;
+                              margin-right: 4%;
+                                  text-align: center;   
+                              }
+                              
+                              .prodNEW{
+                                  width: 280px;
+                                  height: 200px;
+                                  margin-left: 28%; 
+                              }
+                                .prod{
+                                    position: relative;
+                                    left: 20%;
+                                    margin-right: 45%;
+                                    margin-bottom: 10%;
+                                    
+                                    
+                                }
+                                
+                          .proda{
+                              float: left;
+                              margin-right: 2%;
+                              margin-left: 2%;
+                            padding-left: 2px!important;
+                            margin-bottom: 5%!important;
+                          } 
+                          
+                      }
+                      @media (max-width:700px) and (min-width:661px) {
+                        .p4h1 {
+                            font-size: 42px;
+                            text-align: left;
+                            margin-left: 15%;
+                            margin-bottom: 0%;
+                        }
+                          .nav-link{
+                            width: 150px!important;
+                        }
+                          .p33h1 {
+                            margin-left: 4%!important;
+                            margin-right: 10%!important;
+                             width: auto!important;
+                              text-align: center;
+                              font-size: 65px;
+                              margin-bottom: 20px;
+                              padding-bottom: 13px;
+                          }
+                          #p22p1 p {
+                            position: relative;
+                            left: 0%;
+                            margin-right: 10%;
+                            margin-left: 4%;
+                            width: auto;
+                            font-size: 20px;
+                        }
+                          
+                        .carousel-inner{
+                            width: 710px!important;
+                           position: relative;
+                           right: 26%;
+                        }
+                        #ps{
+                            font-size: 16px!important;
+                        }
+                        .p5h1{
+                           
+                            font-size: 40px!important;
+                            
+                            text-align: center;
+                            width: 590px!important;
+                        }
+                        .p5h8{
+                          font-size: 40px;
+                      
+                          text-align: center;  
+                      }
+                      .p5h9{
+                          font-size: 35px;
+                      margin-left: 4%;
+                      margin-right: 4%;
+                          text-align: center;   
+                      }
+                      
+                      .prodNEW{
+                          width: 280px;
+                          height: 200px;
+                          margin-left: 30%; 
+                      }
+                        .prod{
+                            position: relative;
+                            left: 20%;
+                            margin-right: 45%;
+                            margin-bottom: 10%;
+                            
+                            
+                        }
+                        
+                  .proda{
+                      width: 660px!important;
+                      margin-right: 2%;
+                      margin-left: 2%;
+                    padding-left: 2px!important;
+                    margin-bottom: 5%!important;
+                  } 
+                        }
+                          @media (max-width:729px) and (min-width:701px) {
+                            .p4h1 {
+                                font-size: 42px;
+                                text-align: left;
+                                margin-left: 15%;
+                                margin-bottom: 0%;
+                            }
+                              
+                            }
+                      @media (max-width:729px) and (min-width:661px) {
+                         
+                        .p33h1 {
+                            margin-left: 4%!important;
+                            margin-right: 10%!important;
+                             width: auto!important;
+                              text-align: center;
+                              font-size: 65px;
+                              margin-bottom: 20px;
+                              padding-bottom: 13px;
+                          }
+                          #p22p1 p {
+                            position: relative;
+                            left: 0%;
+                            margin-right: 10%;
+                            margin-left: 4%;
+                            width: auto;
+                            font-size: 20px;
+                        }
+                          
+                        .carousel-inner{
+                            width: 710px!important;
+                           position: relative;
+                           right: 20%;
+                        }
+                /*haay*/        .nav-link{
+                            width: 150px!important;
+                        }
+                        #ps{
+                            font-size: 16px!important;
+                        }
+                        .row{
+                            flex-wrap: nowrap!important;
+                        }
+                              .item1{
+                                 
+                                  margin-left: 0px;
+                                  height: 87px!important;
+                              }
+                              
+                             
+                            .p5h1{
+                               
+                                font-size: 40px!important;
+                                
+                                text-align: center;
+                                width: 590px!important;
+                            }
+                            .p5h8{
+                              font-size: 45px;
+                          
+                              text-align: center;  
+                          }
+                          .p5h9{
+                              font-size: 35px;
+                          margin-left: 4%;
+                          margin-right: 4%;
+                              text-align: center;   
+                          }
+                          
+                          .prodNEW{
+                              width: 280px;
+                              height: 200px;
+                              margin-left: 30%; 
+                          }
+                            .prod{
+                                position: relative;
+                                left: 20%;
+                                margin-right: 47%;
+                                margin-bottom: 10%;
+                                
+                                
+                            }
+                            
+                            .proda{
+                              width: 680px!important;
+                              margin-right: 2%;
+                              margin-left: 2%;
+                            padding-left: 2px!important;
+                            margin-bottom: 5%!important;
+                          } 
+                      
+                      }
+                      @media (max-width:769px) and (min-width:730px) {
+                          .p4h1{
+                              font-size: 45px;
+                              text-align: left;
+                              margin-left: 20%;
+                              margin-bottom: 0%;
+                              position: relative;
+                              left: 0%;
+                          }
+                          .item{
+                              width: 143px!important;
+                          }
+                          .item1{
+                              width: 143px!important;
+                      
+                          }
+                          
+                          .p33h1 {
+                            margin-left: 4%!important;
+                            margin-right: 10%!important;
+                             width: auto!important;
+                              text-align: center;
+                              font-size: 65px;
+                              margin-bottom: 20px;
+                              padding-bottom: 13px;
+                          }
+                          #p22p1 p {
+                            position: relative;
+                            left: 0%;
+                            margin-right: 10%;
+                            margin-left: 4%;
+                            width: auto;
+                            font-size: 20px;
+                        }
+                          
+                        .carousel-inner{
+                            width: 710px!important;
+                           position: relative;
+                           right: 0%;
+                        }
+                /*haay*/        .nav-link{
+                            width: 150px!important;
+                        }
+                        #ps{
+                            font-size: 16px!important;
+                        }
+                        .row{
+                            flex-wrap: nowrap!important;
+                        }
+                        .p5h1{
+                           
+                            font-size: 40px!important;
+                            
+                            text-align: center;
+                            width: 620px!important;
+                        }
+                        .p5h8{
+                          font-size: 45px;
+                      
+                          text-align: center;  
+                      }
+                      .p5h9{
+                          font-size: 35px;
+                      margin-left: 4%;
+                      margin-right: 4%;
+                          text-align: center;   
+                      }
+                      
+                      .prodNEW{
+                          width: 280px;
+                          height: 200px;
+                          margin-left: 32%; 
+                      }
+                        .prod{
+                          position: relative;
+                          left: 20%;
+                          margin-right: 50%;
+                          margin-bottom: 10%;
+                          
+                          
+                      }
+                      
+                      .proda{
+                        width: 720px!important;
+                        margin-right: 2%;
+                        margin-left: 2%;
+                      padding-left: 2px!important;
+                      margin-bottom: 5%!important;
+                    } 
+                      
+                      }
+                      @media (max-width:850px) and (min-width:770px) {
+                        .p4h1{
+                            font-size: 45px;
+                            text-align: left;
+                            margin-left: 20%;
+                            margin-bottom: 0%;
+                            position: relative;
+                            left: 0%;
+                        }
+                          .p33h1 {
+                            margin-left: 4%!important;
+                            margin-right: 10%!important;
+                             width: auto!important;
+                              text-align: center;
+                              font-size: 65px;
+                              margin-bottom: 20px;
+                              padding-bottom: 13px;
+                          }
+                          #p22p1 p {
+                            position: relative;
+                            left: 0%;
+                            margin-right: 10%;
+                            margin-left: 4%;
+                            width: auto;
+                            font-size: 20px;
+                        }
+                          
+                        .carousel-inner{
+                            width: 710px!important;
+                           position: relative;
+                           right: 0%;
+                        }
+                /*haay*/        .nav-link{
+                            width: 150px!important;
+                        }
+                        #ps{
+                            font-size: 16px!important;
+                        }
+                        .row{
+                            flex-wrap: nowrap!important;
+                        }
+                        .p5h1{
+                           
+                            font-size: 40px!important;
+                            
+                            text-align: center;
+                            width: 750px!important;
+                        }
+                      
+                    
+                      
+                      .prodNEW{
+                          width: 280px;
+                          height: 200px;
+                          margin-left: 34%; 
+                      }
+                        .prod{
+                            position: relative;
+                            left: 20%;
+                            margin-right: 25%;
+                            margin-bottom: 5%;
+                            
+                            
+                        }
+                        .prod{
+                          position: relative;
+                          left: 30%;
+                          margin-right: 57%;
+                          margin-bottom: 5%;
+                          
+                          
+                      }
+                      
+                      .proda{
+                        width: 810px!important;
+                        margin-right: 2%;
+                        margin-left: 2%;
+                      padding-left: 2px!important;
+                      margin-bottom: 5%!important;
+                    } 
+                  
+                      }
+                      
+                      @media (max-width:991px) and (min-width:920px) {
+                        .p4h1{
+                            font-size: 45px;
+                            text-align: left;
+                            margin-left: 25%;
+                            margin-bottom: 0%;
+                            position: relative;
+                            left: 0%;
+                          }
+                        
+                        }
+                        
+                          @media (max-width:919px) and (min-width:851px) {
+                            .p4h1{
+                                font-size: 45px;
+                                text-align: left;
+                                margin-left: 20%;
+                                margin-bottom: 0%;
+                                position: relative;
+                                left: 0%;
+                            }}
+                      @media (max-width:991px) and (min-width:851px) {
+                          
+                        .p33h1 {
+                            margin-left: 4%!important;
+                            margin-right: 10%!important;
+                             width: auto!important;
+                              text-align: center;
+                              font-size: 65px;
+                              margin-bottom: 20px;
+                              padding-bottom: 13px;
+                          }
+                          #p22p1 p {
+                            position: relative;
+                            left: 0%;
+                            margin-right: 10%;
+                            margin-left: 4%;
+                            width: auto;
+                            font-size: 20px;
+                        }
+                          
+                        .carousel-inner{
+                            width: 710px!important;
+                           position: relative;
+                           right: 0%;
+                        }
+                /*haay*/        .nav-link{
+                            width: 150px!important;
+                        }
+                        #ps{
+                            font-size: 16px!important;
+                        }
+                        .row{
+                            flex-wrap: nowrap!important;
+                        }
+                        
+                        .p5h1{
+                           
+                            font-size: 40px!important;
+                            
+                            text-align: center;
+                            width: 850px!important;
+                        }
+                        
+                      
+                        .prod{
+                          position: relative;
+                          left: 30%;
+                          margin-right: 60%;
+                          margin-bottom: 5%;
+                          
+                          
+                      }
+                      
+                      .proda{
+                        width: 930px!important;
+                        margin-right: 2%;
+                        margin-left: 2%;
+                      padding-left: 2px!important;
+                      margin-bottom: 5%!important;
+                      font-size: 18px;
+                    } 
+                      
+                      }
+                      @media (max-width:999px) and (min-width:992px) {
+                        .p4h1{
+                            font-size: 45px;
+                            text-align: left;
+                            margin-left: 27%;
+                            margin-bottom: 0%;
+                            position: relative;
+                            left: 0%;
+                          }
+                          
+                        }
+                          @media (max-width:1024px) and (min-width:1000px) {
+                            .p4h1{
+                                font-size: 45px;
+                                text-align: left;
+                                margin-left: 27%;
+                                margin-bottom: 0%;
+                                position: relative;
+                                left: 0%;
+                              }}
+                              @media (max-width:1024px) and (min-width:992px) {
+                                 
+                                .p33h1 {
+                                    margin-left: 4%!important;
+                                    margin-right: 10%!important;
+                                     width: 710px!important;
+                                      text-align: left;
+                                      font-size: 65px;
+                                      margin-bottom: 20px;
+                                      padding-bottom: 13px;
+                                  }
+                                  #p22p1 p {
+                                    position: relative;
+                                    left: 0%;
+                                    margin-right: 10%;
+                                    margin-left: 4%;
+                                    width: 710px;
+                                    font-size: 20px;
+                                }
+                                  
+                                .carousel-inner{
+                                    width: 710px!important;
+                                   position: relative;
+                                   right: 0%;
+                                }
+                             .nav-link{
+                                    width: 150px!important;
+                                }
+                                #ps{
+                                    font-size: 16px!important;
+                                }
+                                .row{
+                                    flex-wrap: nowrap!important;
+                                }
+                                
+                               
+                                
+                                    .p5h1 {
+                                        margin-left: 2%;
+                                        margin-right: 9%;
+                                        text-align: left;
+                                       font-size: 50px;
+                                    }
+                                      .prod{
+                                        width: 300px;
+                                        height: 200px;
+                                        float:left;
+                                        z-index: 10;
+                                        
+                                        margin-right: 15px;
+                                    }
+                                    .proda{
+                                        margin-right: 10%;
+                                      height: 200px;  
+                                      max-width: 1080px!important;
+                                    margin-left: 37%;
+                                  }
+                              }
+                              @media (max-width:1049px)and (min-width:1025px)  {
+                                .p4h1{
+                                    font-size: 45px;
+                                    text-align: left;
+                                    margin-left: 27%;
+                                    margin-bottom: 0%;
+                                    position: relative;
+                                    left: 0%;
+                                  }
+                                  .p33h1 {
+                                     width: 900px!important;
+                                  }
+                                  #p22p1 p {
+                                    width: 900px;
+                                }
+                               
+                                  .p5h1 {
+                                    margin-left: 2%;
+                                    margin-right: 9%;
+                                    text-align: left;
+                                   font-size: 50px;
+                                }
+                                  .prod{
+                                    width: 300px;
+                                    height: 200px;
+                                    float:left;
+                                    z-index: 10;
+                                    
+                                    margin-right: 15px;
+                                }
+                                .proda{
+                                    margin-right: 10%;
+                                  height: 200px;  
+                                  max-width: 1080px!important;
+                                margin-left: 37%;
+                              }   }
+                              @media (max-width:1199px)and (min-width:1050px)  {
+                              
+                                .p33h1 {
+                                    width: 900px!important;
+                                 }
+                                 #p22p1 p {
+                                   width: 900px;
+                               }
+                              
+                               .p4h1{
+                                font-size: 45px;
+                                text-align: left;
+                                margin-left: 30%;
+                                margin-bottom: 0%;
+                                position: relative;
+                                left: 0%;
+                              }
+                                  .p5h1 {
+                                    margin-left: 2%;
+                                    margin-right: 9%;
+                                    text-align: left;
+                                   font-size: 50px;
+                                }
+                                  .prod{
+                                    width: 300px;
+                                    height: 200px;
+                                    float:left;
+                                    z-index: 10;
+                                    
+                                    margin-right: 10px;
+                                }
+                                .proda{
+                                    margin-right: 10%;
+                                  height: 200px;  
+                                  max-width: 1080px!important;
+                                margin-left: 37%;
+                              }   }
+                              @media (max-width:1249px)and (min-width:1200px)  {
+                                .p4h1{
+                                    font-size: 45px;
+                                    text-align: left;
+                                    margin-left: 30%;
+                                    margin-bottom: 0%;
+                                    position: relative;
+                                    left: 0%;
+                                  }
+                                  .p5h1 {
+                                    margin-left: 2%;
+                                    width: 1000px;
+                                    text-align: left;
+                                   font-size: 50px;
+                                }
+                                }
+                                  @media (max-width:1290px)and (min-width:1250px)  {
+                                    .p4h1{
+                                        font-size: 55px;
+                                        text-align: left;
+                                        margin-left: 25%;
+                                        margin-bottom: 10%;
+                                        position: relative;
+                                        left: 0%;
+                                      }}
+                              @media (max-width:1290px)and (min-width:1200px)  {
+                                  
+                                 
+                                .p5h1 {
+                                    margin-left: 2%;
+                                    
+                                    text-align: left;
+                                    width: 1000px;
+                                }
+                                  .prod{
+                                    width: 300px;
+                                    height: 200px;
+                                    float:left;
+                                    margin-bottom: 50px;
+                                    margin-right: 15px;
+                                }
+                                .proda{
+                                    margin-left: 0%;
+                                  height: 200px;  
+                                  max-width: 1080px!important;
+                                
+                              }  
+                              .container {
+                                width: 100%!important;
+                                padding-right: 15px;
+                                padding-left: 15px;
+                                margin-right: auto;
+                                margin-left: 40px!important;
+                            }
+                             }
+                              @media (max-width:1319px)and (min-width:1291px)  {
+                                .p33h1 {
+                                    width: 990px!important;
+                                 }
+                                 .p4h1{
+                                    font-size: 55px;
+                                    text-align: left;
+                                    margin-left: 30%;
+                                    margin-bottom: 10%;
+                                    position: relative;
+                                    left: 0%;
+                                  }
+                                  .p5h1 {
+                                    margin-left: 2%;
+                                    
+                                    text-align: left;
+                                    width: 1000px;
+                                }
+                                  .prod{
+                                    width: 300px;
+                                    height: 200px;
+                                    float:left;
+                                    margin-bottom: 50px;
+                                    margin-right: 15px;
+                                }
+                                .proda{
+                                    margin-left: 0%;
+                                  height: 200px;  
+                                  max-width: 1080px!important;
+                                
+                              }  }
+                              @media (max-width:1330px)and (min-width:1320px)  {
+                                .p33h1 {
+                                    width: 990px!important;
+                                 }
+                                 #p22p1 p {
+                                  font-size: 18px;
+                               }
+                               .p4h1{
+                                font-size: 65px;
+                                text-align: left;
+                                margin-left: 26%;
+                                margin-bottom: 10%;
+                                position: relative;
+                                left: 0%;
+                              }
+                                  .p5h1 {
+                                    margin-left: 2%;
+                                    
+                                    text-align: left;
+                                    width: 1000px;
+                                }
+                                  .prod{
+                                    width: 300px;
+                                    height: 200px;
+                                    float:left;
+                                    margin-bottom: 50px;
+                                    margin-right: 15px;
+                                }
+                                .proda{
+                                    margin-left: 0%;
+                                  height: 200px;  
+                                  max-width: 1080px!important;
+                                
+                              } }
+                              @media (max-width:1350px)and (min-width:1331px)  {
+                                .p4h1{
+                                    font-size: 65px;
+                                    text-align: left;
+                                    margin-left: 26%;
+                                    margin-bottom: 10%;
+                                    position: relative;
+                                    left: 0%;
+                                  }
+                                 
+                                  .p33h1 {
+                                    width: 1010px!important;
+                                 }
+                                 #p22p1 p {
+                                   font-size: 18px;
+                               }
+                              
+                                 .navbar{
+                                     margin-bottom: 3%!important;
+                                 }
+                                 .p5h1 {
+                                    margin-left: 2%;
+                                    
+                                    text-align: left;
+                                    width: 1000px;
+                                }
+                                  .prod{
+                                    width: 300px;
+                                    height: 200px;
+                                    float:left;
+                                    margin-bottom: 50px;
+                                    margin-right: 15px;
+                                }
+                                .proda{
+                                    margin-left: 0%;
+                                  height: 200px;  
+                                  max-width: 1080px!important;
+                                
+                              } }
+                              @media (max-width:1369px) and (min-width:1351px){
+                                .p4h1{
+                                    font-size: 65px;
+                                    text-align: left;
+                                    margin-left: 26%;
+                                    margin-bottom: 10%;
+                                    position: relative;
+                                    left: 0%;
+                                  }
+                                 
+                                  .navbar{
+                                      margin-bottom: 3%!important;
+                                  }
+                                  .p33h1 {
+                                    width: 1020px!important;
+                                 }
+                                 #p22p1 p {
+                                   font-size: 18px;
+                               }
+                              
+                                  .p5h1 {
+                                    margin-left: 2%;
+                                    
+                                    text-align: left;
+                                    width: 1000px;
+                                }
+                                  .prod{
+                                    width: 300px;
+                                    height: 200px;
+                                    float:left;
+                                    margin-bottom: 50px;
+                                    margin-right: 15px;
+                                }
+                                .proda{
+                                    margin-left: 0%;
+                                  height: 200px;  
+                                  max-width: 1080px!important;
+                                
+                              }
+                              
+                              
+                              }
+                              @media (max-width:1580px) and (min-width:1370px){
+                                .p4h1{
+                                    font-size: 65px;
+                                    text-align: left;
+                                    margin-left: 26%;
+                                    margin-bottom: 10%;
+                                    position: relative;
+                                    left: 0%;
+                                  }
+                                 
+                                  .navbar{
+                                      margin-bottom: 3%!important;
+                                  }
+                                  .p33h1 {
+                                    width: 1100px!important;
+                                 }
+                                 #p22p1 p {
+                                   font-size: 20px;
+                               }
+                              
+                                  .p5h1 {
+                                    margin-left: 2%;
+                                    
+                                    text-align: left;
+                                    width: 1000px;
+                                }
+                                  .prod{
+                                    width: 300px;
+                                    height: 200px;
+                                    float:left;
+                                    margin-bottom: 50px;
+                                    margin-right: 15px;
+                                }
+                                .proda{
+                                    margin-left: 0%;
+                                  height: 200px;  
+                                  max-width: 1080px!important;
+                                
+                              }
+                             
+                              }
+                              @media  (min-width:1581px) and (max-width:1700px), (min-width:1701px){
+                                .p4h1{
+                                    font-size: 65px;
+                                    text-align: left;
+                                    margin-left: 30%;
+                                    margin-bottom: 10%;
+                                    position: relative;
+                                    left: 10%;
+                                  }
+                                 
+                                  .navbar{
+                                      margin-bottom: 3%!important;
+                                  }
+                              #Display-2{
+                                      width: 77%!important;
+                                     
+                                      left: 15%!important;
+                              }
+                              .p5h1 {
+                                margin-left: 2%;
+                                
+                                text-align: left;
+                                width: 1230px;
+                            }
+                            .p33h1 {
+                                width: 1190px!important;
+                             }
+                             #p22p1 p {
+                            position: relative;
+                            left: 0%;
+                            margin-right: 10%;
+                            margin-left: 4%;
+                            width: auto;
+                            font-size: 25px;
+                        }
+                           .item{
+                            width: 243px!important;
+                        }
+                        .item1{
+                            width: 243px!important;
+                        }
+                        .carousel-inner{
+                            height: 200px!important;
+                            width: 1400px!important;
+                           position: relative;
+                           right: 20%;
+                        }
+                              .prod{
+                                width: 400px;
+                                height: 300px;
+                                float:left;
+                                margin-bottom: 50px!important;
+                                margin-right: 0px;
+                            }
+                            .proda{
+                                margin-left: 0%;
+                              height: 200px;  
+                              max-width: 1350px!important;
+                          }
+                          #p2p1 p {
+                            font-size: 20px!important;
+                        }
+                              
+                          
+                          
+                          #ps{
+                              font-size: 30px;
+                          }
+                          
+                              }
+                             
+                              @media  screen and (min-width: 1720px) {
+                                .p4h1{
+                                    font-size: 65px;
+                                    text-align: left;
+                                    margin-left: 30%;
+                                    margin-bottom: 10%;
+                                    position: relative;
+                                    left: 10%;
+                                  }
+                                 
+                                  .navbar{
+                                      margin-bottom: 3%!important;
+                                  }
+                                  .p33h1 {
+                                    width: 1190px!important;
+                                    position: relative;
+                                    left: 8%;
+                                 }
+                                 #p22p1 p {
+                                position: relative;
+                                left: 10%;
+                                margin-right: 10%;
+                                margin-left: 4%;
+                                width: auto;
+                                font-size: 25px;
+                            }
+                               .item{
+                                width: 243px!important;
+                            }
+                            .item1{
+                                width: 243px!important;
+                            }
+                            .carousel-inner{
+                                height: 200px!important;
+                                width: 1400px!important;
+                               position: relative;
+                               left: 10%;
+                            }
+                                  .p5h1{
+                                      padding-bottom: 22px;
+                                     
+                                      
+                                  }  
+                                  .prod{
+                                      width: 400px!important;
+                                      height:300px!important ;
+                                  }
+                                 .navbar{
+                                     width: 1700px!important;
+                                     
+                                        margin-bottom: 5%!important;
+                                 }
+                                 .nav-item{
+                                     width: 300px;
+                                 }
+                                 .container {
+                                    max-width: 1700px!important;
+                                }
+                              }
+                              @media   (max-width:2149px) and (min-width:2000px) {
+                                .p4h1{
+                                    font-size: 65px;
+                                    text-align: left;
+                                    margin-left: 30%;
+                                    margin-bottom: 10%;
+                                    position: relative;
+                                    left: 10%;
+                                  }
+                                 
+                                  .navbar{
+                                      margin-bottom: 3%!important;
+                                  }
+                                  .p33h1 {
+                                    width: 1430px!important;
+                                    position: relative;
+                                    left: 19%;
+                                 }
+                                 #p22p1 p {
+                                position: relative;
+                                left: 20%;
+                                margin-right: 10%;
+                                margin-left: 4%;
+                                width: auto;
+                                font-size: 25px;
+                            }
+                               .item{
+                                width: 443px!important;
+                            }
+                            .item1{
+                                width: 443px!important;
+                            }
+                            .carousel-inner{
+                                height: 300px!important;
+                                width: 1400px!important;
+                               position: relative;
+                               right: 20%;
+                            }
+                                  
+                                  .p5h1 {
+                                    margin-left: 2%;
+                                    
+                                    text-align: left;
+                                    width: 1250px;
+                                }
+                                  .prod{
+                                    width: 400px;
+                                    height: 300px;
+                                    float:left;
+                                    margin-bottom: 50px!important;
+                                    margin-right: 0px;
+                                }
+                                .proda{
+                                    margin-left: 0%;
+                                  height: 200px;  
+                                  max-width: 1350px!important;
+                              }
+                              
+                            
+                             
+                              #ps{
+                                  font-size: 30px;
+                              }
+                                 
+                              }
+                              @media   (max-width:2154px) and (min-width:2150px) {
+                                .p4h1{
+                                    font-size: 65px;
+                                    text-align: left;
+                                    margin-left: 30%;
+                                    margin-bottom: 10%;
+                                    position: relative;
+                                    left: 10%;
+                                  }
+                                 
+                                  .navbar{
+                                      margin-bottom: 3%!important;
+                                  }
+                                  .p33h1 {
+                                    width: 1430px!important;
+                                    position: relative;
+                                    left: 19%;
+                                 }
+                                 #p22p1 p {
+                                position: relative;
+                                left: 20%;
+                                margin-right: 10%;
+                                margin-left: 4%;
+                                width: auto;
+                                font-size: 25px;
+                            }
+                               .item{
+                                width: 443px!important;
+                            }
+                            .item1{
+                                width: 443px!important;
+                            }
+                            .carousel-inner{
+                                height: 300px!important;
+                                width: 1400px!important;
+                               position: relative;
+                               right: 20%;
+                            }
+                                 
+                                  .p5h1 {
+                                    margin-left: 2%;
+                                    
+                                    text-align: left;
+                                    width: 1250px;
+                                }
+                                  .prod{
+                                    width: 400px;
+                                    height: 300px;
+                                    float:left;
+                                    margin-bottom: 50px!important;
+                                    margin-right: 0px;
+                                }
+                                .proda{
+                                    margin-left: 0%;
+                                  height: 200px;  
+                                  max-width: 1350px!important;
+                              }
+                              .p3h1{
+                                  font-size: 179px;
+                                  position: relative;
+                                  left: 12%;
+                                  margin-left: 25%;
+                              }
+                              
+                              #ps{
+                                  font-size: 30px;
+                              }
+                              }
+                             
+                      
+                              @media   (min-width:2155px) and (max-width:2195px) {
+                                .p4h1{
+                                    font-size: 65px;
+                                    text-align: left;
+                                    margin-left: 30%;
+                                    margin-bottom: 10%;
+                                    position: relative;
+                                    left: 10%;
+                                  }
+                                 
+                                  .navbar{
+                                      margin-bottom: 3%!important;
+                                  }
+                                  .p33h1 {
+                                    width: 1430px!important;
+                                    position: relative;
+                                    left: 19%;
+                                 }
+                                 #p22p1 p {
+                                position: relative;
+                                left: 20%;
+                                margin-right: 10%;
+                                margin-left: 4%;
+                                width: auto;
+                                font-size: 25px;
+                            }
+                               .item{
+                                width: 443px!important;
+                            }
+                            .item1{
+                                width: 443px!important;
+                            }
+                            .carousel-inner{
+                                height: 300px!important;
+                                width: 1400px!important;
+                               position: relative;
+                               right: 20%;
+                            }
+                                 
+                                  .p5h1 {
+                                    margin-left: 2%;
+                                    
+                                    text-align: left;
+                                    width: 1250px;
+                                }
+                                  .prod{
+                                    width: 400px;
+                                    height: 300px;
+                                    float:left;
+                                    margin-bottom: 50px!important;
+                                    margin-right: 0px;
+                                }
+                                .proda{
+                                    margin-left: 0%;
+                                  height: 200px;  
+                                  max-width: 1350px!important;
+                              }
+                              
+                              #ps{
+                                  font-size: 30px;
+                              }
+                          }
+                                 
+                              
+                              @media   (min-width:2196px) and (max-width:2199px) {
+                                .p4h1{
+                                    font-size: 65px;
+                                    text-align: left;
+                                    margin-left: 30%;
+                                    margin-bottom: 10%;
+                                    position: relative;
+                                    left: 10%;
+                                  }
+                                 
+                                  .navbar{
+                                      margin-bottom: 3%!important;
+                                  }
+                                  .p33h1 {
+                                    width: 1430px!important;
+                                    position: relative;
+                                    left: 19%;
+                                 }
+                                 #p22p1 p {
+                                position: relative;
+                                left: 20%;
+                                margin-right: 10%;
+                                margin-left: 4%;
+                                width: auto;
+                                font-size: 25px;
+                            }
+                               .item{
+                                width: 443px!important;
+                            }
+                            .item1{
+                                width: 443px!important;
+                            }
+                            .carousel-inner{
+                                height: 300px!important;
+                                width: 1400px!important;
+                               position: relative;
+                               right: 20%;
+                            }
+                               
+                                  .p5h1 {
+                                    margin-left: 2%;
+                                    
+                                    text-align: left;
+                                    width: 1250px;
+                                }
+                                  .prod{
+                                    width: 400px;
+                                    height: 300px;
+                                    float:left;
+                                    margin-bottom: 50px!important;
+                                    margin-right: 0px;
+                                }
+                                .proda{
+                                    margin-left: 0%;
+                                  height: 200px;  
+                                  max-width: 1350px!important;
+                              }
+                              
+                              #ps{
+                                  font-size: 30px;
+                              }
+                              }
+                                  @media  screen and (min-width:1400px) { 
+                                      .nav-link{
+                                          font-size: 30px!important;
+                                          width: 200px;
+                                          text-align: center;
+                                       }
+                                       .dropdown-divider{
+                                          margin-top: 27px!important;
+                                      }
+                                       .Logo{
+                                           width:70px ;height: 75,5px;
+                                       }
+                                       .dropdown-menu {
+                                         width: 200px;
+                                      }
+                                      .ps{
+                                          font-size: 22px;
+                                      
+                                      }
+                                  }
+                                      @media  screen and (min-width:1920px) {
+                                          
+                                           .dropdown-divider{
+                                               margin-top: 27px!important;
+                                           }
+                                           
+                                          
+                                           .Logo{
+                                               width:100px ;height: 105,5px;
+                                           }
+                                           .dropdown-menu {
+                                             width: 300px;
+                                            
+                                          }
+                                          .ps{
+                                              font-size: 28px;
+                                              
+                                          }
+                                          .navbar{
+                                            width: 1700px!important;
+                                            
+                                               margin-bottom: 5%!important;
+                                        }
+                                        .nav-item{
+                                            width: 300px;
+                                        }
+                                        .container {
+                                           max-width: 1700px!important;
+                                       }
+                                       #p2p1 p {
+                                        font-size: 25px!important;
+                                    }
+                                    .prod{
+                                        margin-bottom: 200px!important;
+                                    }
+                                      }
+                                  @media   (min-width:2200px) and (max-width:2399px) {
+                                    .p4h1{
+                                        font-size: 65px;
+                                        text-align: left;
+                                        margin-left: 30%;
+                                        margin-bottom: 10%;
+                                        position: relative;
+                                        left: 10%;
+                                      }
+                                     
+                                      .navbar{
+                                          margin-bottom: 3%!important;
+                                      }
+                                }
+                                  @media   (min-width:2400px) and (max-width:2560px) {
+                                    .p4h1{
+                                        font-size: 80px;
+                                        text-align: left;
+                                        margin-left: 25%;
+                                        margin-bottom: 10%;
+                                        position: relative;
+                                        left: 10%;
+                                      }
+                                     
+                                      .navbar{
+                                          margin-bottom: 3%!important;
+                                      }}
+                              @media   (min-width:2200px) and (max-width:2560px) {
+                                  
+                                  .navbar {
+                                      margin-bottom: 6%!important;
+                                  }
+                                  #Display{
+                                      float: right!important;
+                                     
+                                  }
+                                  .navbar{
+                                      margin-bottom: 150px!important;
+                                  }
+                                  .p33h1 {
+                                    width: 2200px!important;
+                                    position: relative;
+                                    left: 4%;
+                                    font-size: 130px;
+                                 }
+                                 #p22p1 p {
+                                position: relative;
+                                left: 5%;
+                                margin-right: 10%;
+                                margin-left: 4%;
+                                width: auto;
+                                font-size: 50px;
+                            }
+                               .item{
+                                width: 643px!important;
+                            }
+                            .item1{
+                                width: 643px!important;
+                            }
+                            .carousel-inner{
+                                height: 600px!important;
+                                width: 2000px!important;
+                               margin-left: -20%!important;
+                            }
+                            #p2p1 p {
+                                font-size: 25px!important;
+                            }
+                                  #ps{
+                                      font-size: 30px;
+                                  }
+                              }
+                              @media   (min-width:2200px) and (max-width:2399px) {
+                                  
+                                
+                                
+                                .p5h1 {
+                                  margin-left: 2%;
+                                  
+                                  text-align: left;
+                                  width: 1250px;
+                              }
+                                .prod{
+                                  width: 400px;
+                                  height: 300px;
+                                  float:left;
+                                  margin-bottom: 150px!important;
+                                  margin-right: 0px;
+                              }
+                              .proda{
+                                  margin-left: 0%;
+                                height: 200px;  
+                                max-width: 1350px!important;
+                            }
+                                
+                            }
+                              @media   (min-width:2400px) and (max-width:2560px) {
+                                  
+                                
+                                
+                                .p5h1 {
+                                  margin-left: 2%;
+                                  font-size: 120px!important;
+                                  text-align: left;
+                                  width: 1880px;
+                              }
+                                .prod{
+                                  width: 550px!important;
+                                  height: 450px!important;
+                                  float:left;
+                                  margin-bottom: 250px!important;
+                                  margin-right: 0px;
+                              }
+                              .proda{
+                                  margin-left: 0%;
+                                height: 200px;  
+                                position: relative;
+                                left: 1%!important;
+                                max-width: 2000px!important;
+                            }
+                            
+                            #Display-2{
+                                width: 100%!important;
+                               
+                                
+                        }
+                                
+                            }
+                                     
+                      
+                      
+                                                          @media  screen and (min-width:2561px)  {
+                                                            .p4h1{
+                                                                font-size:110px;
+                                                                text-align: left;
+                                                                margin-left: 20%;
+                                                                margin-bottom: 10%;
+                                                                position: relative;
+                                                                left: 10%;
+                                                              }
+                                                             
+                                                              .navbar{
+                                                                  margin-bottom: 3%!important;
+                                                              }
+                                                          #Display{
+                                                              float: right!important;
+                                                             
+                                                          }
+                                                          
+                                                          .p33h1 {
+                                                            width: 2200px!important;
+                                                            position: relative;
+                                                            left: 4%;
+                                                            font-size: 130px;
+                                                         }
+                                                         #p22p1 p {
+                                                        position: relative;
+                                                        left: 5%;
+                                                        margin-right: 10%;
+                                                        margin-left: 4%;
+                                                        width: auto;
+                                                        font-size: 50px;
+                                                    }
+                                                       .item{
+                                                        width: 643px!important;
+                                                    }
+                                                    .item1{
+                                                        width: 643px!important;
+                                                    }
+                                                    .carousel-inner{
+                                                        height: 600px!important;
+                                                        width: 2000px!important;
+                                                       margin-left: -20%!important;
+                                                    }
+                                                          
+                                                          .p5h1 {
+                                                            margin-left: 2%;
+                                                            font-size: 120px!important;
+                                                            text-align: left;
+                                                            width: 1880px;
+                                                        }
+                                                          .prod{
+                                                            width: 550px!important;
+                                                            height: 450px!important;
+                                                            float:left;
+                                                            margin-bottom: 150px!important;
+                                                            margin-right: 0px;
+                                                        }
+                                                        .proda{
+                                                            margin-left: 0%;
+                                                          height: 200px;  
+                                                          position: relative;
+                                                          left: 1%!important;
+                                                          max-width: 2000px!important;
+                                                          
+                                                      }
+                                                      #p2p1 p {
+                                                        font-size: 35px!important;
+                                                    }
+                                                    
+                                                      #Display-2{
+                                                          width: 100%!important;
+                                                         
+                                                  }
+                                                      
+                                                          #ps{
+                                                              font-size: 30px;
+                                                          }
+                                                      }
+                      
+                      
+                      
+                      
+                      
+                      
+        
